@@ -23,6 +23,15 @@
             block[i].style.transform = "rotate("+ 3.6 * i +"deg)"; // ! 360deg / 100 = 3.6deg
             block[i].style.animationDelay = '${i/40}s';
         }
+
+        const counter = document.querySelector('.counter');
+        counter.innerText = 0;
+
+        const target = +counter.getAttribute('data-target');
+
+        const NumberCounter = () => {
+            const value = 
+        }
     </script>
 </body>
 </html>
