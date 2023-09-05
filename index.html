@@ -32,7 +32,10 @@
         const NumberCounter = () => {
             const value = +counter.innerText;
             if (value < target) {
-                counter.innerText = Math.ceil();
+                counter.innerText = Math.ceil(value + 1);
+            setTimeout(() => {
+                    NumberCounter()
+                }, 25)
             }
         }
     </script>
