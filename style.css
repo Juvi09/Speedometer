@@ -46,6 +46,13 @@ body {
     }
 }
 
+/* Get +1 value up of given data*/
+.card .rating .block:nth-child(-n+91)
+{
+    background: #0f0;
+    box-shadow: 0 0 15px #0f0, 0 0 30px #0f0;
+}
+
 .card .rating h2 {
     position: absolute;
     top: 50%;
