@@ -30,7 +30,10 @@
         const target = +counter.getAttribute('data-target');
 
         const NumberCounter = () => {
-            const value = 
+            const value = +counter.innerText;
+            if (value < target) {
+                counter.innerText = Math.ceil();
+            }
         }
     </script>
 </body>
